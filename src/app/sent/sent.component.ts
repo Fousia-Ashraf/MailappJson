@@ -12,8 +12,13 @@ export class SentComponent {
   acn: any
   sendData: any
   constructor(private ds: DataService, private router: Router) {
-    this.acn = this.ds.currentUser
-    this.sendData = this.ds.sendMail
+    this.acn = JSON.parse(localStorage.getItem('currentUser')||'')
+     this.ds.sendData().subscribe((item:any)=>{
+      this.sendData =item
+      // console.log(this.sendData);
+      
+
+    })
     console.log(this.sendData);
 
   }

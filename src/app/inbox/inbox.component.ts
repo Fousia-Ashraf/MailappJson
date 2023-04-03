@@ -10,11 +10,12 @@ import { DataService } from '../services/data.service';
 
 export class InboxComponent {
   user: any
-  acn: any
-  mail: any
-  email: any
+  
   constructor(private ds: DataService, private router: Router) {
-    this.user = this.ds.currentUser
+    this.user = JSON.parse(localStorage.getItem('currentUser') || "")
+
+  console.log(this.user);
+  
   }
 
   ngOninit(): void {

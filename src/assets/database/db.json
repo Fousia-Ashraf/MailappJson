@@ -1,0 +1,149 @@
+{
+  "userDetails": [
+    {
+      "acn": "shani@gmail.com",
+      "psw": "abc123",
+      "id": 1
+    },
+    {
+      "acn": "fousia@gmail.com",
+      "psw": "abc123",
+      "id": 2
+    },
+    {
+      "acn": "beevi@gmail.com",
+      "psw": "abc123",
+      "id": 3
+    },
+    {
+      "acn": "beevi@gmail.com",
+      "psw": "abc123",
+      "id": 4
+    },
+    {
+      "acn": "ashraf@gmail.com",
+      "psw": "abc123",
+      "id": 5
+    },
+    {
+      "acn": "aslam@gmail.com",
+      "psw": "abc123",
+      "id": 6
+    },
+    {
+      "acn": "irfan@gmail.com",
+      "psw": "abc123",
+      "id": 7
+    },
+    {
+      "acn": "alfi@gmail.com",
+      "psw": "abc123",
+      "id": 8
+    },
+    {
+      "acn": "afu@gmail.com",
+      "psw": "abc123",
+      "id": 9
+    },
+    {
+      "acn": "sandra@gmail.com",
+      "psw": "abc123",
+      "id": 10
+    },
+    {
+      "acn": "sha@gmail.com",
+      "psw": "abc123",
+      "id": 11
+    },
+    {
+      "acn": "gopi@gmail.com",
+      "psw": "abc123",
+      "id": 12
+    },
+    {
+      "acn": "xyz@gmail.com",
+      "psw": "abc123",
+      "id": 14
+    },
+    {
+      "acn": "lakshmi@gmail.com",
+      "psw": "abc123",
+      "id": 15
+    },
+    {
+      "acn": "lakshmi@gmail.com",
+      "psw": "abc123",
+      "id": 16
+    }
+  ],
+  "sendMail": [
+    {
+      "mail": "kani@gmail.com",
+      "date": "2020-02-01",
+      "msg": "hi",
+      "id": 1
+    },
+    {
+      "mail": "ashru@gmail.com",
+      "date": "2024-02-01",
+      "msg": "hlo",
+      "id": 2
+    },
+    {
+      "mail": "abc@gmail.com",
+      "date": "2023-02-01",
+      "msg": "hey",
+      "id": 3
+    },
+    {
+      "mail": "shani@gmail.com",
+      "date": "2322-02-01",
+      "msg": "huihsi",
+      "id": 4
+    },
+    {
+      "mail": "beevi@gmail.com",
+      "date": "2022-01-01",
+      "msg": "hey",
+      "id": 5
+    },
+    {
+      "mail": "ashru@gmail.com",
+      "date": "2024-03-02",
+      "msg": "abc",
+      "id": 6
+    },
+    {
+      "mail": "noufal@gmail.com",
+      "date": "2023-06-01",
+      "msg": "hi",
+      "id": 7
+    },
+    {
+      "mail": "",
+      "date": "",
+      "msg": "",
+      "id": 8
+    },
+    {
+      "mail": "beevi@gmail.com",
+      "date": "2023-02-01",
+      "msg": "hey",
+      "id": 9
+    }
+  ],
+  "draftMail": [
+    {
+      "mail": "abc@gmail.com",
+      "date": "2023-02-01",
+      "msg": "hello",
+      "id": 1
+    },
+    {
+      "mail": "beevi@gmail.com",
+      "date": "2023-02-01",
+      "msg": "goodmorning",
+      "id": 2
+    }
+  ]
+}

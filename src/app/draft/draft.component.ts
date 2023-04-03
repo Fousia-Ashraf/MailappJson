@@ -14,8 +14,11 @@ acn:any
 draftData:any
 
   constructor(private ds:DataService,private router: Router){
-    this.acn=this.ds.currentUser
-    this.draftData=this.ds.draftMail
+    this.acn=JSON.parse(localStorage.getItem('currentUser')||'')
+    this.ds.draftData().subscribe((item:any)=>{
+      this.draftData=item
+
+    })
 console.log(this.draftData);
 
 
